@@ -18,7 +18,7 @@ def download_web_data():
 
 
     # 确定chromedriver的路径
-    driver_path = os.path.abspath("chromedriver")
+    driver_path = os.path.abspath("chromedriver.exe")
 
     # 创建一个新的web driver对象，并为他命名为browser
     browser = webdriver.Chrome(driver_path)
